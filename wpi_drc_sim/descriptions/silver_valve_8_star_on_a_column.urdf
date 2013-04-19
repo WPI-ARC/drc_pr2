@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<robot name="valve">
+  <link name="valve_base_link">
+    <visual>
+      <geometry>
+        <box size="0.5 0.5 2.0"/>
+      </geometry>
+      <material name="redish">
+	<color rgba="0.5 0.1 0.1 0.5"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.5 .5 2.0"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="10"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  <link name="handle">
+    <visual>
+      <geometry>
+	<mesh filename="package://wpi_drc_sim/meshes/valve_models/silver-valve-8-star.dae" scale="0.05 0.05 0.05"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://wpi_drc_sim/meshes/valve_models/silver-valve-8-star.stl" scale="0.05 0.05 0.05"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+  
+  <link name="rod">
+    <visual>
+      <geometry>
+	<cylinder length="0.1" radius="0.005"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+      <material name="whiteish">
+	<color rgba="1.0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+	<cylinder length="0.1" radius="0.005"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  <joint name="body_to_rod" type="fixed">
+    <parent link="valve_base_link"/>
+    <child link="rod"/>
+    <origin xyz="0.3 0.0 0.0"/>
+  </joint>
+
+  <joint name="rod_to_handle" type="continuous">
+    <parent link="rod"/>
+    <child link="handle"/>
+    <axis xyz="1 0 0"/>
+    <origin xyz="0.05 0 0"/>
+  </joint>
+
+  <!--gazebo>
+    <turnGravityOff>true</turnGravityOff>
+    <static>true</static>
+  </gazebo-->
+
+</robot>

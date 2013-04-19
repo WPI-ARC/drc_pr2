@@ -1,0 +1,14 @@
+
+Convex hull of 32 points in 2-d:
+
+  Number of vertices: 8
+  Number of facets: 8
+
+Statistics for:  | qhull QJ Pp s Tc 
+
+  Number of points processed: 8
+  Number of hyperplanes created: 14
+  Number of distance tests for qhull: 174
+  CPU seconds to compute hull (after input):  0
+  Input joggled by: 6.7e-12
+

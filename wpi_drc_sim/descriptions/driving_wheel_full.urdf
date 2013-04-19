@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot name="valve">
+  <link name="base">
+    <visual>
+      <geometry>
+	<mesh filename="package://wpi_drc_sim/meshes/valve_models/logitech_driving_force_pro_wheel_base.dae" scale="0.025399986 0.025399986 0.025399986"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+	<mesh filename="package://wpi_drc_sim/meshes/valve_models/logitech_driving_force_pro_wheel_base.stl" scale="0.025399986 0.025399986 0.025399986"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.1270 0 0"/>
+      <mass value="100.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  <link name="handle">
+    <visual>
+      <geometry>
+	<mesh filename="package://wpi_drc_sim/meshes/valve_models/logitech_driving_force_pro_wheel.dae" scale="0.025399986 0.025399986 0.025399986"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://wpi_drc_sim/meshes/valve_models/logitech_driving_force_pro_wheel.stl" scale="0.025399986 0.025399986 0.025399986"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" />
+      <mass value="0.1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_handle" type="continuous">
+    <parent link="base"/>
+    <child link="handle"/>
+    <axis xyz="1 0 0"/>
+    <!--axis xyz="-0.3907 0 0.9205"/-->
+    <origin xyz="0 0 0" rpy="0 -0.4 0"/>
+  </joint>
+
+</robot>

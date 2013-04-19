@@ -1,0 +1,15 @@
+<package>
+  <description brief="drc_launch">
+
+     drc_launch
+
+  </description>
+  <author>Calder Phillips-Grafflin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/drc_launch</url>
+  <depend package="rospy"/>
+
+</package>
+
+

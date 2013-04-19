@@ -1,0 +1,3 @@
+trajectory: [/home/calderpg/Dropbox/DARPA_Research_Work/drc/task_control/real_trajectory_library/pose/KB_11|01|2013_20|33|33_pr2_trajectory.xml]|best match trajectory: [KG]|match cost: [10.1941927514]|assigned code: [COMPLETE]
+trajectory: [/home/calderpg/Dropbox/DARPA_Research_Work/drc/task_control/real_trajectory_library/pose/KB_11|01|2013_20|34|04_pr2_trajectory.xml]|best match trajectory: [KG]|match cost: [10.8474867477]|assigned code: [COMPLETE]
+trajectory: [/home/calderpg/Dropbox/DARPA_Research_Work/drc/task_control/real_trajectory_library/pose/KG_11|01|2013_20|34|29_pr2_trajectory.xml]|best match trajectory: [KG]|match cost: [11.4438067545]|assigned code: [COMPLETE]

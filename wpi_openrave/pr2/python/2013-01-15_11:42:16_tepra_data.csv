@@ -1,0 +1,2 @@
+num_of_iter,cbirrt_result,gui_id,valve_position_x,valve_position_y,valve_position_z,valve_quat_x,valve_quat_y,valve_quat_z,valve_quat_w,rms_err,angle_err,cycle_success_code,skipped,time,notes
+1,-1,KG-EX,1.45637536049,-0.156282350421,0.134658008814,0.187098398805,0.0678514167666,0.979328334332,0.0361441746354,0.0,0.0,generate points failed,-1,11:54:42,

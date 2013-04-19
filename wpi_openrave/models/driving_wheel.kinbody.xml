@@ -1,0 +1,31 @@
+<!-- Bener Suay 2012 -->
+<!-- benersuay@wpi.edu -->
+<!-- A simple robotic driving wheel made based on Dmitry Berenson's crank.robot.xml. The collada model is supposedly the same with the real life Logitech Driving Force GT Racing Wheel. -->
+<KinBody name="crank">
+  <modelsdir>.</modelsdir>
+  <Body name="pole" type="dynamic">
+    <Geom type="cylinder">
+      <Translation>0 -0.019535 0.046025</Translation>
+      <RotationAxis>1 0 0 113</RotationAxis>              
+      <height>0.1</height>
+      <radius>0.02</radius>
+      <diffusecolor>0.3 0.9 0.9</diffusecolor>
+    </Geom>
+  </Body>
+  <Body name="crank" type="dynamic">
+    <Geom type="trimesh">
+      <Translation>0 0  0</Translation>
+      <RotationAxis>0 1 0 90</RotationAxis>
+      <data>logitech_driving_force_pro_wheel_slant.dae 0.025399986</data>
+      <Render>logitech_driving_force_pro_wheel_slant.dae 0.025399986</Render>
+    </Geom>
+    <!-- The following Geom block is for the collision model-->
+    <Geom type="trimesh" render="false">
+      <Translation>0 0  0</Translation>
+      <RotationAxis>0 1 0 90</RotationAxis>
+      <data>logitech_driving_force_pro_wheel_slant.dae 0.025399986</data>
+      <Render>logitech_driving_force_pro_wheel_slant.dae 0.025399986</Render>
+    </Geom>
+  </Body>
+</KinBody>
+

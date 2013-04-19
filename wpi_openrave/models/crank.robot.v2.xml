@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Robot name="crank">
+    <KinBody name="crank">
+        <modelsdir>.</modelsdir>
+        <Body name="pole" type="dynamic">
+            <Geom type="cylinder">
+              <Translation>0 0 0.05</Translation>
+              <RotationAxis>1 0 0 90</RotationAxis>              
+              <height>0.1</height>
+              <radius>0.03</radius>
+              <diffusecolor>0.3 0.3 0.3</diffusecolor>
+            </Geom>
+	    <Translation>0.5 0.0 0.8</Translation>
+	    <RotationAxis>0 1 0 90</RotationAxis>
+        </Body>
+
+        <Body name="crank" type="dynamic">
+            
+            <Geom type="trimesh">
+                <Translation>0.0 0.0 0.0</Translation>
+                <RotationAxis>0 0 0 0</RotationAxis>
+                <data>crank3.iv 0.05</data> <!--this doesn't work b/c model is scaled in iv file -->
+                <Render>crank3.iv 0.05</Render>
+            </Geom>
+            <Geom type="cylinder" render="false">
+              <Translation>0 0 0.8</Translation>
+              <RotationAxis>0 1 0 90</RotationAxis>
+              <height>0.05</height>
+              <radius>0.14</radius>
+              <diffusecolor>0.3 0.3 0.3</diffusecolor>
+            </Geom>
+	    <Translation>0.5 0.0 0.8</Translation>
+	    <RotationAxis>0 1 0 90</RotationAxis>
+        </Body>
+
+
+        <Joint name="J_RHipY" type="hinge">
+          <Body>pole</Body>
+          <Body>crank</Body>
+          <offsetfrom>pole</offsetfrom>
+          <weight>1</weight>
+          <limitsdeg>-180 180</limitsdeg>
+	  <axis>0 0 1</axis>
+          <maxvel>1</maxvel>
+          <resolution>1</resolution>
+        </Joint>
+    </KinBody>
+
+  <Manipulator name="dummy">
+    <base>pole</base>
+    <effector>crank</effector>
+    <Translation>0 0 0</Translation>
+  </Manipulator>
+
+</Robot>

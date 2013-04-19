@@ -1,0 +1,3840 @@
+[STARTUP] Starting task controller in TESTING mode
+[STARTUP] Starting task controller in REAL mode
+[STARTUP] Starting task controller in INTERACTIVE mode
+[STARTUP] Starting task controller in LAISSEZ-FAIRE mode
+[STARTUP] Starting task controller with safety: 50.0
+[STARTUP] Starting task controller with threshold: -1.0
+
+[STARTUP] Loading PR2 (both arms) trajectory controller
+[STARTUP] Loaded evaluator
+[STARTUP] Library size is 299 trajectories (88 KG, 211 KB)
+[STARTUP] Loaded state publisher
+[STARTUP] ManagedJointTrajectory service host up
+[STARTUP] Arm actionlib clients ready
+[STARTUP] Gripper actionlib clients ready
+[STARTUP] Joint state subscribers ready
+[STARTUP] Task controller running...
+
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000126511345738
+[SAFETY] PASS Joint state distance (right): 0.00019170657789
+[SAFETY] PASS Joint state distance (left): 9.42014862151e-06
+[SAFETY] PASS Joint state distance (right): 6.47011991261e-06
+[SAFETY] PASS Joint state distance (left): 1.38622234434
+[SAFETY] PASS Joint state distance (right): 1.98226366839
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.08 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.1200847348
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.2493156013
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.3043283427
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00012253123468
+[SAFETY] PASS Joint state distance (right): 0.000105194891786
+[SAFETY] PASS Joint state distance (left): 1.00107593518e-05
+[SAFETY] PASS Joint state distance (right): 7.2370289925e-06
+[SAFETY] PASS Joint state distance (left): 1.0742328139
+[SAFETY] PASS Joint state distance (right): 2.3446408887
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.05 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 17.0940756864
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.12 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 17.3907398515
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.89 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 17.4590719885
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000125671535784
+[SAFETY] PASS Joint state distance (left): 9.33847037795e-06
+[SAFETY] PASS Joint state distance (right): 9.04629254506e-06
+[SAFETY] PASS Joint state distance (left): 1.76467952775
+[SAFETY] PASS Joint state distance (right): 1.26961043188
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 16.3047055051
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 16.3347993067
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 16.3197422638
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000139712496499
+[SAFETY] PASS Joint state distance (left): 8.61105965364e-06
+[SAFETY] PASS Joint state distance (right): 5.42586061919e-06
+[SAFETY] PASS Joint state distance (left): 1.50542902742
+[SAFETY] PASS Joint state distance (right): 1.98294238811
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 12.9181807386
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.94 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.8558080385
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.55 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.9432163087
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000150552277054
+[SAFETY] PASS Joint state distance (right): 0.000180156980264
+[SAFETY] PASS Joint state distance (left): 7.71919047708e-06
+[SAFETY] PASS Joint state distance (right): 8.38796352734e-06
+[SAFETY] PASS Joint state distance (left): 1.58436865703
+[SAFETY] PASS Joint state distance (right): 1.90460365948
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.84 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 10.0406762052
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+b[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.1 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.0093018045
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.0152353531
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000109084054536
+[SAFETY] PASS Joint state distance (right): 0.000199344599605
+[SAFETY] PASS Joint state distance (left): 6.41821544804e-06
+[SAFETY] PASS Joint state distance (right): 6.8407184025e-06
+[SAFETY] PASS Joint state distance (left): 2.21539924953
+[SAFETY] PASS Joint state distance (right): 2.44257758541
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.1999383865
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.01 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.2391446148
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.4099221366
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000201851946753
+[SAFETY] PASS Joint state distance (right): 0.000155799760686
+[SAFETY] PASS Joint state distance (left): 7.1180998797e-06
+[SAFETY] PASS Joint state distance (right): 6.15042017303e-06
+[SAFETY] PASS Joint state distance (left): 1.65978280246
+[SAFETY] PASS Joint state distance (right): 2.36148668665
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 19.1972445827
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+KG[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.07 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 16.8954797137
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.94 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.4992100977
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000134913362317
+[SAFETY] PASS Joint state distance (right): 8.04668517153e-05
+[SAFETY] PASS Joint state distance (left): 8.47101155709e-06
+[SAFETY] PASS Joint state distance (right): 6.2896529851e-06
+[SAFETY] PASS Joint state distance (left): 1.20027511824
+[SAFETY] PASS Joint state distance (right): 1.25414601811
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.89 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 11.4720965816
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.77 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 11.9397617286
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.12 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 11.6690029027
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000150552277054
+[SAFETY] PASS Joint state distance (right): 0.000145678527419
+[SAFETY] PASS Joint state distance (left): 8.99073282296e-06
+[SAFETY] PASS Joint state distance (right): 7.49360374406e-06
+[SAFETY] PASS Joint state distance (left): 1.38326198713
+[SAFETY] PASS Joint state distance (right): 1.32594127659
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+KB[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.2479723266
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.1 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.1241087986
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.14 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.0556449764
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00015450113948
+[SAFETY] PASS Joint state distance (right): 0.000101619991168
+[SAFETY] PASS Joint state distance (left): 9.07348624494e-06
+[SAFETY] PASS Joint state distance (right): 7.32010950437e-06
+[SAFETY] PASS Joint state distance (left): 1.63673074111
+[SAFETY] PASS Joint state distance (right): 2.29880134841
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.76 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 23.8775953956
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 22.9560179028
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.96 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 23.0722525474
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000139826376654
+[SAFETY] PASS Joint state distance (right): 0.000161843348853
+[SAFETY] PASS Joint state distance (left): 8.16815474435e-06
+[SAFETY] PASS Joint state distance (right): 6.39083219478e-06
+[SAFETY] PASS Joint state distance (left): 1.33229102326
+[SAFETY] PASS Joint state distance (right): 2.34322307893
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.1081502676
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.6403157373
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.15 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.5839285382
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000109084054536
+[SAFETY] PASS Joint state distance (right): 0.000149497783356
+[SAFETY] PASS Joint state distance (left): 7.14738005924e-06
+[SAFETY] PASS Joint state distance (right): 8.36526808224e-06
+[SAFETY] PASS Joint state distance (left): 1.50632869194
+[SAFETY] PASS Joint state distance (right): 2.28542613996
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.86 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.4793080285
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kg
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.8260094352
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.12 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.6696991677
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000150552277054
+[SAFETY] PASS Joint state distance (right): 0.000108807084295
+[SAFETY] PASS Joint state distance (left): 8.68702367693e-06
+[SAFETY] PASS Joint state distance (right): 8.19854706397e-06
+[SAFETY] PASS Joint state distance (left): 1.38425713166
+[SAFETY] PASS Joint state distance (right): 1.97116417646
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.23 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 12.4398038975
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.76 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.1648655623
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.89 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.1285311905
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000262546708169
+[SAFETY] PASS Joint state distance (right): 9.26090391341e-05
+[SAFETY] PASS Joint state distance (left): 6.84180875373e-06
+[SAFETY] PASS Joint state distance (right): 5.3784124859e-06
+[SAFETY] PASS Joint state distance (left): 1.49351854578
+[SAFETY] PASS Joint state distance (right): 1.63601661021
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.68 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 11.8120887598
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.97 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 11.8102347421
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.97 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 11.7901128094
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000225586826187
+[SAFETY] PASS Joint state distance (right): 9.59850605492e-05
+[SAFETY] PASS Joint state distance (left): 6.47435814268e-06
+[SAFETY] PASS Joint state distance (right): 8.10127990757e-06
+[SAFETY] PASS Joint state distance (left): 1.68747857078
+[SAFETY] PASS Joint state distance (right): 2.23843715704
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.17 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 14.1156588315
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 14.2348126905
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 14.0318977698
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000210319042365
+[SAFETY] PASS Joint state distance (right): 0.000101619991168
+[SAFETY] PASS Joint state distance (left): 1.02633171101e-05
+[SAFETY] PASS Joint state distance (right): 7.34807748363e-06
+[SAFETY] PASS Joint state distance (left): 1.92425196611
+[SAFETY] PASS Joint state distance (right): 2.31317192823
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.06 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 25.1543001134
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.82 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.8116460817
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.84 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.6808492516
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000138273978457
+[SAFETY] PASS Joint state distance (right): 0.000140244724036
+[SAFETY] PASS Joint state distance (left): 6.66520135118e-06
+[SAFETY] PASS Joint state distance (right): 7.21990256186e-06
+[SAFETY] PASS Joint state distance (left): 1.48747295018
+[SAFETY] PASS Joint state distance (right): 1.97747845704
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.5495965708
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.07 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.4514992109
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.6098212959
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000182164556439
+[SAFETY] PASS Joint state distance (right): 0.000178132136364
+[SAFETY] PASS Joint state distance (left): 7.77973145524e-06
+[SAFETY] PASS Joint state distance (right): 4.93862610481e-06
+[SAFETY] PASS Joint state distance (left): 1.40724706923
+[SAFETY] PASS Joint state distance (right): 1.63927666929
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.77 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 28.2723922609
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 28.1270726208
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 28.2103429505
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000189960788834
+[SAFETY] PASS Joint state distance (right): 0.000122790600565
+[SAFETY] PASS Joint state distance (left): 8.99520686656e-06
+[SAFETY] PASS Joint state distance (right): 7.1046727064e-06
+[SAFETY] PASS Joint state distance (left): 1.34677289751
+[SAFETY] PASS Joint state distance (right): 2.21250845902
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.6 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 16.2415870794
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 13.5985862648
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 16.3985325802
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000139826376654
+[SAFETY] PASS Joint state distance (right): 0.000199344599605
+[SAFETY] PASS Joint state distance (left): 6.99087990763e-06
+[SAFETY] PASS Joint state distance (right): 8.55147700436e-06
+[SAFETY] PASS Joint state distance (left): 1.84554762719
+[SAFETY] PASS Joint state distance (right): 2.26213173196
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.7 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.7773067266
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.15 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 23.1551844551
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.7 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 23.4856719775
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000139826376654
+[SAFETY] PASS Joint state distance (right): 0.000101619991168
+[SAFETY] PASS Joint state distance (left): 7.11078573454e-06
+[SAFETY] PASS Joint state distance (right): 7.32399042294e-06
+[SAFETY] PASS Joint state distance (left): 1.39544255313
+[SAFETY] PASS Joint state distance (right): 2.08263088507
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.94 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 27.5239836784
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 27.1688791595
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 27.0763267837
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000210276560515
+[SAFETY] PASS Joint state distance (right): 0.00028092084806
+[SAFETY] PASS Joint state distance (left): 5.86085956539e-06
+[SAFETY] PASS Joint state distance (right): 6.54258438023e-06
+[SAFETY] PASS Joint state distance (left): 1.43113900221
+[SAFETY] PASS Joint state distance (right): 2.14340537291
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.1685754664
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.05 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.2636595146
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.66 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.1794102423
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000248970660235
+[SAFETY] PASS Joint state distance (right): 8.04668517153e-05
+[SAFETY] PASS Joint state distance (left): 5.82323118157e-06
+[SAFETY] PASS Joint state distance (right): 7.55174270536e-06
+[SAFETY] PASS Joint state distance (left): 1.60499228407
+[SAFETY] PASS Joint state distance (right): 1.75371979288
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.89 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 19.6690771077
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.06 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.9824651802
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.8414833557
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000186601881251
+[SAFETY] PASS Joint state distance (right): 0.000105194891786
+[SAFETY] PASS Joint state distance (left): 6.98956576842e-06
+[SAFETY] PASS Joint state distance (right): 7.06619333228e-06
+[SAFETY] PASS Joint state distance (left): 0.771276746798
+[SAFETY] PASS Joint state distance (right): 1.31384570636
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.574120318
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.97 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 101.133736048
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.491669819
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000115977180296
+[SAFETY] PASS Joint state distance (right): 0.000100442984409
+[SAFETY] PASS Joint state distance (left): 7.51017407678e-06
+[SAFETY] PASS Joint state distance (right): 8.28166528614e-06
+[SAFETY] PASS Joint state distance (left): 1.57510913558
+[SAFETY] PASS Joint state distance (right): 1.98589168157
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.3665117103
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.4291282295
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.01 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.504449188
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000248039594108
+[SAFETY] PASS Joint state distance (left): 5.70271607417e-06
+[SAFETY] PASS Joint state distance (right): 7.99351552067e-06
+[SAFETY] PASS Joint state distance (left): 1.40028068878
+[SAFETY] PASS Joint state distance (right): 2.23073739263
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.9530597473
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.84 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.7472304764
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.63 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 16.0061912766
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000115977180296
+[SAFETY] PASS Joint state distance (right): 9.84374160861e-05
+[SAFETY] PASS Joint state distance (left): 8.66825109479e-06
+[SAFETY] PASS Joint state distance (right): 7.12638824248e-06
+[SAFETY] PASS Joint state distance (left): 2.0405264023
+[SAFETY] PASS Joint state distance (right): 1.69182813611
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.7718163639
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.732304979
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.1 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.7320683046
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000344806345901
+[SAFETY] PASS Joint state distance (right): 8.43303737942e-05
+[SAFETY] PASS Joint state distance (left): 7.79096456262e-06
+[SAFETY] PASS Joint state distance (right): 7.49751879872e-06
+[SAFETY] PASS Joint state distance (left): 1.59192564963
+[SAFETY] PASS Joint state distance (right): 1.45650909274
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.12 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 13.3961092777
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.11 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 11.8641393782
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.63 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.0665465354
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000186249251902
+[SAFETY] PASS Joint state distance (right): 0.000226656618679
+[SAFETY] PASS Joint state distance (left): 1.00398272337e-05
+[SAFETY] PASS Joint state distance (right): 6.0526007454e-06
+[SAFETY] PASS Joint state distance (left): 0.609657979003
+[SAFETY] PASS Joint state distance (right): 1.38140108717
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.247127834
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.6 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 102.561142305
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.269731006
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000144069530375
+[SAFETY] PASS Joint state distance (right): 0.000105951985385
+[SAFETY] PASS Joint state distance (left): 5.20718216672e-06
+[SAFETY] PASS Joint state distance (right): 7.79848904718e-06
+[SAFETY] PASS Joint state distance (left): 1.63555338507
+[SAFETY] PASS Joint state distance (right): 1.79977784119
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.72 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.3029706034
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.2643371951
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.82 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 22.0980007711
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00019422007558
+[SAFETY] PASS Joint state distance (right): 8.43303737942e-05
+[SAFETY] PASS Joint state distance (left): 9.41234973283e-06
+[SAFETY] PASS Joint state distance (right): 3.98007860819e-06
+[SAFETY] PASS Joint state distance (left): 1.4253613974
+[SAFETY] PASS Joint state distance (right): 1.22092878151
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.5083522768
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.06 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.0563627272
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.78 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.2758143616
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000140587383695
+[SAFETY] PASS Joint state distance (right): 9.84374160861e-05
+[SAFETY] PASS Joint state distance (left): 7.57850806918e-06
+[SAFETY] PASS Joint state distance (right): 6.3506977883e-06
+[SAFETY] PASS Joint state distance (left): 0.995605300696
+[SAFETY] PASS Joint state distance (right): 1.33134123378
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 112.589085052
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.63 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 108.89315842
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.65 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 108.78940068
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000200275747677
+[SAFETY] PASS Joint state distance (right): 0.000173767544969
+[SAFETY] PASS Joint state distance (left): 7.68064810616e-06
+[SAFETY] PASS Joint state distance (right): 7.17567896622e-06
+[SAFETY] PASS Joint state distance (left): 1.49915611214
+[SAFETY] PASS Joint state distance (right): 2.36574970053
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.04 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.4232677877
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.5266757247
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.54 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.4765845445
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000189960788834
+[SAFETY] PASS Joint state distance (right): 0.000118069900894
+[SAFETY] PASS Joint state distance (left): 7.22987462481e-06
+[SAFETY] PASS Joint state distance (right): 6.99300589051e-06
+[SAFETY] PASS Joint state distance (left): 1.48987571908
+[SAFETY] PASS Joint state distance (right): 2.34858611625
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.2718329805
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.2 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.2431261166
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.08 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.3288924683
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000205038104388
+[SAFETY] PASS Joint state distance (right): 0.000159337027033
+[SAFETY] PASS Joint state distance (left): 5.74922481162e-06
+[SAFETY] PASS Joint state distance (right): 9.06815181161e-06
+[SAFETY] PASS Joint state distance (left): 1.48970972632
+[SAFETY] PASS Joint state distance (right): 2.01838125414
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.65 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.7379092934
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.09 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.6710818077
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.89 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.9325723552
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000140587383695
+[SAFETY] PASS Joint state distance (right): 0.000131068880713
+[SAFETY] PASS Joint state distance (left): 7.29235481489e-06
+[SAFETY] PASS Joint state distance (right): 8.20567739548e-06
+[SAFETY] PASS Joint state distance (left): 1.72368563417
+[SAFETY] PASS Joint state distance (right): 2.14067524289
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.4194041757
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.05 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.4282091747
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.4357125635
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000109084054536
+[SAFETY] PASS Joint state distance (right): 0.000175909574925
+[SAFETY] PASS Joint state distance (left): 6.82601457316e-06
+[SAFETY] PASS Joint state distance (right): 7.36274008691e-06
+[SAFETY] PASS Joint state distance (left): 1.509229347
+[SAFETY] PASS Joint state distance (right): 2.69809130448
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.1346277231
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.0829254195
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.91019503
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000248039594108
+[SAFETY] PASS Joint state distance (left): 5.15442814055e-06
+[SAFETY] PASS Joint state distance (right): 7.47084564054e-06
+[SAFETY] PASS Joint state distance (left): 1.43048668598
+[SAFETY] PASS Joint state distance (right): 1.82236079658
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.73 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.9262812332
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.02 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.8178037859
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+K[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.8167590662
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000202062291081
+[SAFETY] PASS Joint state distance (right): 0.00021381413314
+[SAFETY] PASS Joint state distance (left): 8.97453358063e-06
+[SAFETY] PASS Joint state distance (right): 9.73582478595e-06
+[SAFETY] PASS Joint state distance (left): 1.82825439109
+[SAFETY] PASS Joint state distance (right): 4.44090752543
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 32.6710945245
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.06 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 32.6643855586
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 32.4242067533
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000157668841109
+[SAFETY] PASS Joint state distance (right): 0.000161843348853
+[SAFETY] PASS Joint state distance (left): 8.19494489564e-06
+[SAFETY] PASS Joint state distance (right): 8.78087495423e-06
+[SAFETY] PASS Joint state distance (left): 1.28743511408
+[SAFETY] PASS Joint state distance (right): 1.74806312711
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG):   
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.96 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 14.0268897022
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 14.0160173391
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.1435347384
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000308832079066
+[SAFETY] PASS Joint state distance (right): 0.00015086817571
+[SAFETY] PASS Joint state distance (left): 1.03804297529e-05
+[SAFETY] PASS Joint state distance (right): 5.80166975244e-06
+[SAFETY] PASS Joint state distance (left): 1.4650041448
+[SAFETY] PASS Joint state distance (right): 2.05473178325
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 10.2557156857
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.96 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 12.3380644341
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 10.0019122865
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000192389546018
+[SAFETY] PASS Joint state distance (right): 0.000121818315943
+[SAFETY] PASS Joint state distance (left): 6.88925240633e-06
+[SAFETY] PASS Joint state distance (right): 7.03061637665e-06
+[SAFETY] PASS Joint state distance (left): 1.28413579399
+[SAFETY] PASS Joint state distance (right): 2.43072668626
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.86 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.4921454085
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kb
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.7758566222
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.0 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.2818740029
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000126511345738
+[SAFETY] PASS Joint state distance (right): 0.000122158421758
+[SAFETY] PASS Joint state distance (left): 6.93640271196e-06
+[SAFETY] PASS Joint state distance (right): 7.94688291015e-06
+[SAFETY] PASS Joint state distance (left): 1.51063034965
+[SAFETY] PASS Joint state distance (right): 1.67564843045
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kg
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.1776993625
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.9684936383
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.75 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.6523808092
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000151490940036
+[SAFETY] PASS Joint state distance (right): 0.000115649815884
+[SAFETY] PASS Joint state distance (left): 7.32083336568e-06
+[SAFETY] PASS Joint state distance (right): 9.92232190175e-06
+[SAFETY] PASS Joint state distance (left): 1.43301303019
+[SAFETY] PASS Joint state distance (right): 1.11209292848
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.78 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.3218141741
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.94 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.2173221202
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.09 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.2003426487
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000150552277054
+[SAFETY] PASS Joint state distance (right): 0.00019502722302
+[SAFETY] PASS Joint state distance (left): 9.67244257221e-06
+[SAFETY] PASS Joint state distance (right): 7.9553727264e-06
+[SAFETY] PASS Joint state distance (left): 1.23901096801
+[SAFETY] PASS Joint state distance (right): 1.89215345087
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.82 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 25.7487541672
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.82 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 26.0878442594
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.04 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 25.7962548941
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.0001278744776
+[SAFETY] PASS Joint state distance (right): 9.26090391341e-05
+[SAFETY] PASS Joint state distance (left): 7.69338710153e-06
+[SAFETY] PASS Joint state distance (right): 8.31100110172e-06
+[SAFETY] PASS Joint state distance (left): 1.48177856125
+[SAFETY] PASS Joint state distance (right): 1.92597030885
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.2971059604
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.0566386937
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.93 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 19.9787631902
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000202079217824
+[SAFETY] PASS Joint state distance (right): 0.000145678527419
+[SAFETY] PASS Joint state distance (left): 6.81187838971e-06
+[SAFETY] PASS Joint state distance (right): 8.01302403331e-06
+[SAFETY] PASS Joint state distance (left): 0.640695569012
+[SAFETY] PASS Joint state distance (right): 1.38581604477
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 102.84194096
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.0 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 103.157984986
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.07 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 102.872171252
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000158574902315
+[SAFETY] PASS Joint state distance (right): 0.000126305949407
+[SAFETY] PASS Joint state distance (left): 7.6214170137e-06
+[SAFETY] PASS Joint state distance (right): 8.87352296643e-06
+[SAFETY] PASS Joint state distance (left): 1.56485078457
+[SAFETY] PASS Joint state distance (right): 2.51661254589
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.1 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.8659286556
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kb
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.7515651019
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.6472419983
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000172076646989
+[SAFETY] PASS Joint state distance (right): 0.000145678527419
+[SAFETY] PASS Joint state distance (left): 7.94236090883e-06
+[SAFETY] PASS Joint state distance (right): 5.10824991937e-06
+[SAFETY] PASS Joint state distance (left): 1.52889354685
+[SAFETY] PASS Joint state distance (right): 2.42283117037
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.7 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 33.9382749811
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kg
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.8 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 33.0677699489
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.1 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 33.1356248204
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000186601881251
+[SAFETY] PASS Joint state distance (right): 8.04668517153e-05
+[SAFETY] PASS Joint state distance (left): 6.03170527845e-06
+[SAFETY] PASS Joint state distance (right): 7.85192796386e-06
+[SAFETY] PASS Joint state distance (left): 0.700180805664
+[SAFETY] PASS Joint state distance (right): 1.41765796389
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.0 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 115.981016212
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 114.859989039
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.08 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 114.919047396
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00014746148968
+[SAFETY] PASS Joint state distance (right): 0.000203102507074
+[SAFETY] PASS Joint state distance (left): 8.5418518082e-06
+[SAFETY] PASS Joint state distance (right): 8.15491274875e-06
+[SAFETY] PASS Joint state distance (left): 1.4550163671
+[SAFETY] PASS Joint state distance (right): 1.79547114558
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kb
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.24 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.4064039389
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.4 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.3912986308
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 13.5811131265
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.0001278744776
+[SAFETY] PASS Joint state distance (right): 9.59850605492e-05
+[SAFETY] PASS Joint state distance (left): 7.15789457634e-06
+[SAFETY] PASS Joint state distance (right): 8.72126967615e-06
+[SAFETY] PASS Joint state distance (left): 1.42355484734
+[SAFETY] PASS Joint state distance (right): 1.45132317355
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.5275014266
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.02 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.1653961671
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.77 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.1635953547
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000200320518008
+[SAFETY] PASS Joint state distance (right): 0.000169359973715
+[SAFETY] PASS Joint state distance (left): 8.30901394268e-06
+[SAFETY] PASS Joint state distance (right): 9.16490687244e-06
+[SAFETY] PASS Joint state distance (left): 1.47715865999
+[SAFETY] PASS Joint state distance (right): 2.59404310271
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.75 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 21.4439093162
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.12 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.7538650995
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.68 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 24.1275419615
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00015450113948
+[SAFETY] PASS Joint state distance (right): 0.000122137928744
+[SAFETY] PASS Joint state distance (left): 8.80077182103e-06
+[SAFETY] PASS Joint state distance (right): 8.80014397485e-06
+[SAFETY] PASS Joint state distance (left): 1.49489500105
+[SAFETY] PASS Joint state distance (right): 3.33083158832
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.7 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.3370474842
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): Kg
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.81 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 20.5412769029
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.93 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 19.9671296725
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000109084054536
+[SAFETY] PASS Joint state distance (right): 0.000115802940457
+[SAFETY] PASS Joint state distance (left): 3.38300659452e-06
+[SAFETY] PASS Joint state distance (right): 7.68180726085e-06
+[SAFETY] PASS Joint state distance (left): 1.47486067911
+[SAFETY] PASS Joint state distance (right): 2.54174228001
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.85 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 18.5979581083
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 17.798598735
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 18.0835571175
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000118069900894
+[SAFETY] PASS Joint state distance (left): 4.987510515e-06
+[SAFETY] PASS Joint state distance (right): 9.4808220222e-06
+[SAFETY] PASS Joint state distance (left): 0.517381443353
+[SAFETY] PASS Joint state distance (right): 1.3949283003
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.08 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.438247936
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.07 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.613747856
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.186877445
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000182440973295
+[SAFETY] PASS Joint state distance (left): 8.2279788717e-06
+[SAFETY] PASS Joint state distance (right): 5.28495232505e-06
+[SAFETY] PASS Joint state distance (left): 1.45593531398
+[SAFETY] PASS Joint state distance (right): 1.95428326855
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.06 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.2787401896
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.5650418662
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.84 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 13.070492977
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000150552277054
+[SAFETY] PASS Joint state distance (right): 0.000111481579238
+[SAFETY] PASS Joint state distance (left): 8.66710232575e-06
+[SAFETY] PASS Joint state distance (right): 7.26473917755e-06
+[SAFETY] PASS Joint state distance (left): 1.45659190522
+[SAFETY] PASS Joint state distance (right): 1.43990647671
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.02 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.7390476384
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.72 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.8478531054
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.04 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.7303885965
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000282886785757
+[SAFETY] PASS Joint state distance (right): 0.000104076933454
+[SAFETY] PASS Joint state distance (left): 8.34217623587e-06
+[SAFETY] PASS Joint state distance (right): 5.32945776331e-06
+[SAFETY] PASS Joint state distance (left): 1.43950217335
+[SAFETY] PASS Joint state distance (right): 2.63742319147
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.6414420719
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.96 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 22.977372099
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.4095826618
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000207435497461
+[SAFETY] PASS Joint state distance (right): 0.000143476603081
+[SAFETY] PASS Joint state distance (left): 6.79160934581e-06
+[SAFETY] PASS Joint state distance (right): 1.01297226073e-05
+[SAFETY] PASS Joint state distance (left): 1.47681036957
+[SAFETY] PASS Joint state distance (right): 2.10942131043
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.78 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.048145544
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.98 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.0295007928
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.07 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.1036903276
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00019422007558
+[SAFETY] PASS Joint state distance (right): 0.00012017002067
+[SAFETY] PASS Joint state distance (left): 9.40579175109e-06
+[SAFETY] PASS Joint state distance (right): 9.38088517126e-06
+[SAFETY] PASS Joint state distance (left): 1.59741618186
+[SAFETY] PASS Joint state distance (right): 1.8500248646
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.76 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.9814932346
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 19.3357075204
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 18.8835741378
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000140587383695
+[SAFETY] PASS Joint state distance (right): 0.000290766093002
+[SAFETY] PASS Joint state distance (left): 5.96353118384e-06
+[SAFETY] PASS Joint state distance (right): 8.61031573248e-06
+[SAFETY] PASS Joint state distance (left): 1.56397627737
+[SAFETY] PASS Joint state distance (right): 1.45263510343
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.86 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.0986142231
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.3625789137
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.4943358825
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.0001278744776
+[SAFETY] PASS Joint state distance (right): 9.28653376239e-05
+[SAFETY] PASS Joint state distance (left): 7.8757751646e-06
+[SAFETY] PASS Joint state distance (right): 9.46409674657e-06
+[SAFETY] PASS Joint state distance (left): 1.31270784
+[SAFETY] PASS Joint state distance (right): 1.79906072567
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 15.0817591302
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.2341168706
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.51 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.4565160232
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000168482935209
+[SAFETY] PASS Joint state distance (right): 0.000108915200621
+[SAFETY] PASS Joint state distance (left): 7.32418725537e-06
+[SAFETY] PASS Joint state distance (right): 5.16554214656e-06
+[SAFETY] PASS Joint state distance (left): 1.66874149873
+[SAFETY] PASS Joint state distance (right): 2.36952928774
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 13.5194710588
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 13.6185086202
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 13.7001777338
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000260758492878
+[SAFETY] PASS Joint state distance (right): 0.00015086817571
+[SAFETY] PASS Joint state distance (left): 6.46704423109e-06
+[SAFETY] PASS Joint state distance (right): 4.98805021672e-06
+[SAFETY] PASS Joint state distance (left): 1.46766760455
+[SAFETY] PASS Joint state distance (right): 2.35295456367
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.73 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 24.3692221806
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.74 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 24.5334207248
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.96 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 26.2376487874
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000133847223147
+[SAFETY] PASS Joint state distance (right): 0.000199344599605
+[SAFETY] PASS Joint state distance (left): 5.60321721364e-06
+[SAFETY] PASS Joint state distance (right): 7.74324988635e-06
+[SAFETY] PASS Joint state distance (left): 1.57990726502
+[SAFETY] PASS Joint state distance (right): 2.49422028865
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.94 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 15.4744104608
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.79 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 19.4678923939
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.84 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 19.4043438351
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000301987409972
+[SAFETY] PASS Joint state distance (right): 0.000223601091555
+[SAFETY] PASS Joint state distance (left): 1.00841738865e-05
+[SAFETY] PASS Joint state distance (right): 8.14948036227e-06
+[SAFETY] PASS Joint state distance (left): 1.45273649267
+[SAFETY] PASS Joint state distance (right): 2.02859986584
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.96 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 10.0529891568
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.84 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 10.0305687745
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.86 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.0093483191
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000139826376654
+[SAFETY] PASS Joint state distance (right): 0.000134190993328
+[SAFETY] PASS Joint state distance (left): 4.36254606855e-06
+[SAFETY] PASS Joint state distance (right): 8.72428817851e-06
+[SAFETY] PASS Joint state distance (left): 0.761270947723
+[SAFETY] PASS Joint state distance (right): 1.50336568971
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.63 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 114.64454143
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.69 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 110.225239845
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.89 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 110.840663494
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000172076646989
+[SAFETY] PASS Joint state distance (right): 0.000160012839021
+[SAFETY] PASS Joint state distance (left): 8.01187975058e-06
+[SAFETY] PASS Joint state distance (right): 7.05905937407e-06
+[SAFETY] PASS Joint state distance (left): 1.23290951539
+[SAFETY] PASS Joint state distance (right): 1.91358890972
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.94 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 12.4692637932
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.9 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 12.4264031256
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.72 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 12.074771991
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000157668841109
+[SAFETY] PASS Joint state distance (right): 0.000155215172144
+[SAFETY] PASS Joint state distance (left): 7.28405585737e-06
+[SAFETY] PASS Joint state distance (right): 7.25121851077e-06
+[SAFETY] PASS Joint state distance (left): 1.30012219535
+[SAFETY] PASS Joint state distance (right): 1.51522440301
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.18 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 114.885907628
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 111.304443616
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 111.133534347
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000139522236721
+[SAFETY] PASS Joint state distance (right): 0.000166450078269
+[SAFETY] PASS Joint state distance (left): 7.77143355816e-06
+[SAFETY] PASS Joint state distance (right): 8.41046625463e-06
+[SAFETY] PASS Joint state distance (left): 1.78430176887
+[SAFETY] PASS Joint state distance (right): 2.07626042118
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.95 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.9452458882
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.02 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 17.9266180326
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.0 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 18.0052664781
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000247456883451
+[SAFETY] PASS Joint state distance (right): 8.04668517153e-05
+[SAFETY] PASS Joint state distance (left): 6.14444625642e-06
+[SAFETY] PASS Joint state distance (right): 9.20506664682e-06
+[SAFETY] PASS Joint state distance (left): 1.45081609745
+[SAFETY] PASS Joint state distance (right): 1.27551197494
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.16 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.1159751766
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.1 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.0157101735
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 10.0794208386
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000207235160546
+[SAFETY] PASS Joint state distance (right): 0.000182440973295
+[SAFETY] PASS Joint state distance (left): 6.37083210777e-06
+[SAFETY] PASS Joint state distance (right): 9.40003214273e-06
+[SAFETY] PASS Joint state distance (left): 1.62411625064
+[SAFETY] PASS Joint state distance (right): 2.07943551977
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.97 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 18.8248872825
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.92 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 18.7125314677
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 7.999999999
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.87 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 18.9742996339
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000254730377713
+[SAFETY] PASS Joint state distance (right): 0.000182848871144
+[SAFETY] PASS Joint state distance (left): 7.00123343404e-06
+[SAFETY] PASS Joint state distance (right): 5.74417086474e-06
+[SAFETY] PASS Joint state distance (left): 0.611576886468
+[SAFETY] PASS Joint state distance (right): 1.48658173108
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 100.038341147
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.86 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 102.098435243
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.03 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 101.922441007
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000159442709134
+[SAFETY] PASS Joint state distance (right): 0.000167230878324
+[SAFETY] PASS Joint state distance (left): 7.69293705992e-06
+[SAFETY] PASS Joint state distance (right): 5.25119411148e-06
+[SAFETY] PASS Joint state distance (left): 1.648607324
+[SAFETY] PASS Joint state distance (right): 2.39843484154
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): 
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 28.306793233
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 5.22 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 26.9471333153
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.99 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 28.0828960834
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000260772195312
+[SAFETY] PASS Joint state distance (right): 0.000108588419226
+[SAFETY] PASS Joint state distance (left): 7.3067549961e-06
+[SAFETY] PASS Joint state distance (right): 4.47087944494e-06
+[SAFETY] PASS Joint state distance (left): 1.65313620561
+[SAFETY] PASS Joint state distance (right): 2.61496275174
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KG
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false negative)
+[DEBUG] Trajectory evaluation took 4.83 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.9713853688
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 5.02 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.7671443497
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified correctly
+[DEBUG] Trajectory evaluation took 4.93 seconds
+[INFO] Best match trajectory: KB
+[INFO] Best match cost: 23.9136963369
+[INFO] Characterized error code: MISALIGN
+[STATUS] Trajectory evaluation complete with code [MISALIGN]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.00012253123468
+[SAFETY] PASS Joint state distance (right): 0.000144212472245
+[SAFETY] PASS Joint state distance (left): 7.40632018239e-06
+[SAFETY] PASS Joint state distance (right): 9.12440650341e-06
+[SAFETY] PASS Joint state distance (left): 1.58014852432
+[SAFETY] PASS Joint state distance (right): 2.22604349908
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.91 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.2285591634
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.02 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.2548393408
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.06 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 14.1070909481
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+----------
+[STATUS] Executing a trajectory...
+[SAFETY] PASS Joint state distance (left): 0.000239230802596
+[SAFETY] PASS Joint state distance (right): 0.000220285672003
+[SAFETY] PASS Joint state distance (left): 8.26206201409e-06
+[SAFETY] PASS Joint state distance (right): 5.68128548034e-06
+[SAFETY] PASS Joint state distance (left): 2.11453868326
+[SAFETY] PASS Joint state distance (right): 2.30145066991
+[DEBUG] Running prep trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.88 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.0400743237
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 4.81 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 21.0773671682
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running main trajectory
+[DEBUG] Estimated execution time: 8.0
+[DEBUG] Running return trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Trajectory execution complete...
+[INTERACTIVE] Enter trajectory type (KB or KG): KB
+[DEBUG] (Testing mode) Trajectory identified incorrectly (false positive)
+[DEBUG] Trajectory evaluation took 5.09 seconds
+[INFO] Best match trajectory: KG
+[INFO] Best match cost: 20.6050668237
+[INFO] Characterized error code: COMPLETE
+[STATUS] Trajectory evaluation complete with code [COMPLETE]
+[DEBUG] Running post trajectory
+[DEBUG] Estimated execution time: 8.0
+[STATUS] Full trajectory execution complete
+[DEBUG] (Testing mode) Total correct: 123 Total false positives: 63 Total false negatives: 48

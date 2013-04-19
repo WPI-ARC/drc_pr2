@@ -1,0 +1,3 @@
+<launch>
+	<node name="pr2_planner" pkg="wpi_arm_plan_pkg" type="pr2_ros_listener_v16.py" output="screen"/>
+</launch>

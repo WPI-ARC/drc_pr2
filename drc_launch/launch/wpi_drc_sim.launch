@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="drc_launch" type="raptor.py" name="welcome" output="screen" />
+  <!-- Master launch file for WPI DRC ROS Simulation stack -->
+  <include file="$(find wpi_drc_sim)/launch/pr2_driving_wheel_on_table.launch" />
+  <include file="$(find gui)/launch/valve_alignment_pr2_simulation.launch" />
+  <include file="$(find task_control)/launch/task_control_simulation.launch" />
+  <include file="$(find wpi_arm_plan_pkg)/launch/pr2_planner.launch" />
+
+</launch>

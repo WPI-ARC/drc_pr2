@@ -1,0 +1,14 @@
+clear;
+clc;
+num_figures = 8;
+width = num_figures / 2;
+height = 2;
+figure();
+m0 = csvread('dtw0.csv');
+m1 = csvread('dtw1.csv');
+m2 = csvread('dtw2.csv');
+m3 = csvread('dtw3.csv');
+subplot(1,4,1), image(m0), title('Zero-cost match');
+subplot(1,4,2), image(m1), title('Low-cost match');
+subplot(1,4,3), image(m2), title('Medium-cost match');
+subplot(1,4,4), image(m3), title('High-cost match');

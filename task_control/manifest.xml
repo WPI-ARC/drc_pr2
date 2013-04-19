@@ -1,0 +1,25 @@
+<package>
+  <description brief="task_control">
+
+     task_control
+
+  </description>
+  <author>Calder Phillips-Grafflin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/task_control</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="roslib"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+  <depend package="pr2_controllers_msgs"/>
+  <depend package="actionlib"/>
+  <depend package="trajectory_msgs"/>
+  <depend package="kinematics_msgs"/>
+
+</package>
+
+

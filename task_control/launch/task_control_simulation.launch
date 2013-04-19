@@ -1,0 +1,16 @@
+<launch>
+
+  <include file="$(find task_control)/launch/cart_controllers.launch" />
+
+  <node pkg="task_control" type="set_init_config.py" name="set_init_config" output="screen" />
+
+  <node pkg="task_control" type="pr2_pose_trajectory_controller.py" name="task_control" output="screen" >
+    <param name="safety" type="double" value="15.0" />
+    <param name="threshold" type="double" value="15.0" />
+    <param name="mode" type="string" value="simulation" />
+    <param name="enforce" type="bool" value="true" />
+    <param name="testing" type="bool" value="true" />
+    <param name="interactive" type="bool" value="false" />
+  </node>
+
+</launch>

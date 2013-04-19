@@ -1,0 +1,10 @@
+<KinBody name="mug">
+  <Body type="dynamic">
+    <Geom type="trimesh">
+      <Data>models/objects/blue_mug_y_up.iv</Data>
+      <Render>models/objects/blue_mug_y_up.iv</Render>
+      <Translation>0.4 0 0</Translation>
+      <RotationAxis>1 0 0 90</RotationAxis>
+    </Geom>      
+  </Body>
+</KinBody>

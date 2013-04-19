@@ -1,0 +1,8 @@
+ManagedJointTrajectory left_arm_command
+ManagedJointTrajectory right_arm_command
+pr2_controllers_msgs/Pr2GripperCommandGoal[] left_gripper_commands
+pr2_controllers_msgs/Pr2GripperCommandGoal[] right_gripper_commands
+string code
+string filepath
+---
+string result

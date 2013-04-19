@@ -1,0 +1,4 @@
+trajectory_msgs/JointTrajectory prep_trajectory
+trajectory_msgs/JointTrajectory main_trajectory
+trajectory_msgs/JointTrajectory return_trajectory
+trajectory_msgs/JointTrajectory post_trajectory

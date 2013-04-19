@@ -1,0 +1,6 @@
+<launch>
+
+  <include file="$(find wpi_drc_sim)/launch/pr2_driving_wheel_on_table_headless.launch" />
+  <include file="$(find gui)/launch/valve_alignment_pr2_simulation.launch" />
+
+</launch>

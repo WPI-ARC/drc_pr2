@@ -1,0 +1,1 @@
+/usr/bin/c++ -I/usr/include/eigen3  simple_convert_traj.cpp -o simple_converter -I/usr/include/libxml2 -L/usr/lib/x86_64-linux-gnu -lxml2

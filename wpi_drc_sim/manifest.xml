@@ -1,0 +1,16 @@
+<package>
+  <description brief="wpi_drc_sim">
+    Simulated robotics challenge worlds for the challenge. Supposed to have world files, meshes and world related scripts.
+  </description>
+  <author>Bener Suay</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wpi_drc_sim</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="gazebo"/>
+  <depend package="gazebo_msgs"/>
+
+</package>
+
+

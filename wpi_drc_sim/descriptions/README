@@ -1,0 +1,15 @@
+Bener Suay, December 2012
+benersuay@wpi.edu
+
+To see what a urdf looks like, install urdf_tutorials from
+
+   https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk/urdf_tutorial
+
+Then run the following command
+
+     $ roscd wpi_drc_sim/descriptions/
+     $ roslaunch urdf_tutorials display.launch model:=<whichever-you-want>.urdf gui:=True
+
+If you modify a xacro and want to generate a urdf from that xacro, run:
+
+     $ rosrun xacro xacro.py file_name.xacro > file_name.urdf

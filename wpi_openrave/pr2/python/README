@@ -1,0 +1,13 @@
+Bener Suay, December 2012
+benersuay@wpi.edu
+
+LIST OF SCRIPTS
+
+     pr2_ros_listener:
+
+	- v1: Creates a box at the height set by a ros topic.
+	- v2: Updates the position of the racing wheel at XYZ location set by a topic.
+	- v3: Updates the position of the racing wheel with full location and orientation in torso_lift_link frame.
+	- v4: Updates the position of the racing wheel and the robot joints based on Gazebo (or real robot).
+	- v5: Imitates Gazebo world and runs the arm trajectory planner.
+	- v6: Imitates Gazebo world, runs the arm trajectory planner and sends back a trajectory.

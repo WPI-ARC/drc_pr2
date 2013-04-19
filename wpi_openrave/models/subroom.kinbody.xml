@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KinBody>
+    <modelsdir>.</modelsdir>
+    <Body name="body" type="dynamic">
+        <Geom type="trimesh">
+            <data>subroom.iv 0.45</data>
+            <Render>subroom.iv 0.45</Render>
+        </Geom>
+    </Body>
+</KinBody>

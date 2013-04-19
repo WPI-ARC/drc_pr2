@@ -1,0 +1,28 @@
+Bener Suay, December 2012
+benersuay@wpi.edu
+
+
+SCRIPTS
+
+    1) launch_generator_v1.py
+
+    2) launch_generator_v2.py
+
+       Will generate a:
+	i) <current_time_stamp>.launch file in wpi_drc/launch directory, and,
+       ii) <current_time_stamp>-<valve_number>.urdf file in wpi_drc/descriptions directory. Number of urdf files to be generated is defined in the scripts with the variable numModels. 
+
+    3) launch_generator_v3.py
+
+       Same as the previous script but it generates launch files to run Gazebo headless.
+
+HOW TO RUN THE SCRPITS
+
+    You can run any of the scripts with:
+
+      $ rosrun wpi_drc_sim <script_name>
+
+    or
+
+      $ roscd wpi_drc_sim/scripts/
+      $ python <script_name>.py

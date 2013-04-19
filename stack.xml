@@ -1,0 +1,18 @@
+<stack>
+  <description brief="drc">
+    PR2-specific code for WPI's DARPA Robotics Challenge
+  </description>
+  <author>Maintained by Calder, Nick and Bener</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wpi_drc</url>
+  <depend stack="ros_comm" /> 
+  <depend stack="common_msgs" /> 
+  <depend stack="std_msgs" /> 
+  <depend stack="geometry" /> 
+  <depend stack="ros" /> 
+  <depend stack="actionlib" /> 
+  <depend stack="arm_navigation" />
+  <depend stack="visualization" /> 
+  <depend stack="pr2_controllers" /> 
+</stack>

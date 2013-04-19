@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bener Suay 2012 -->
+<!-- benersuay@wpi.edu -->
+<!-- A simple robotic driving wheel made based on Dmitry Berenson's crank.robot.xml. The collada model is supposedly the same with the real life Logitech Driving Force GT Racing Wheel. -->
+<Robot name="crank">
+    <KinBody name="crank">
+        <modelsdir>.</modelsdir>
+        <Body name="pole" type="dynamic">
+            <Geom type="cylinder">
+              <Translation>0 -0.019535 0.046025</Translation>
+              <RotationAxis>1 0 0 113</RotationAxis>              
+              <height>0.1</height>
+              <radius>0.02</radius>
+              <diffusecolor>0.3 0.9 0.9</diffusecolor>
+            </Geom>
+        </Body>
+        <Body name="crank" type="dynamic">
+            <Geom type="trimesh">
+                <Translation>0 0  0</Translation>
+                <RotationAxis>0 1 0 90</RotationAxis>
+                <data>logitech_driving_force_pro_wheel_slant.dae 0.025399986</data>
+                <Render>logitech_driving_force_pro_wheel_slant.dae 0.025399986</Render>
+            </Geom>
+	    <!-- The following Geom block is for the collision model-->
+	    <Geom type="trimesh" render="false">
+                <Translation>0 0  0</Translation>
+                <RotationAxis>0 1 0 90</RotationAxis>
+                <data>logitech_driving_force_pro_wheel_slant.dae 0.025399986</data>
+                <Render>logitech_driving_force_pro_wheel_slant.dae 0.025399986</Render>
+            </Geom>
+        </Body>
+        <Joint name="J_RHipY" type="hinge">
+          <Body>pole</Body>
+          <Body>crank</Body>
+          <offsetfrom>pole</offsetfrom>
+          <weight>1</weight>
+          <limitsdeg>-180 180</limitsdeg>
+	  <axis>0 -0.3907 0.9205</axis>
+          <maxvel>1</maxvel>
+          <resolution>1</resolution>
+        </Joint>
+    </KinBody>
+  <Manipulator name="dummy">
+    <base>pole</base>
+    <effector>crank</effector>
+    <Translation>0 0 0</Translation>
+    <RotationAxis>1 0 0 23</RotationAxis>
+  </Manipulator>
+</Robot>
