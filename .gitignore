@@ -16,3 +16,5 @@ openHubo/env.sh
 .svn
 .o
 .cmake
+.user
+.cbp
