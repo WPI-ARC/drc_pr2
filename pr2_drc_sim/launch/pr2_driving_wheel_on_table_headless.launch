@@ -1,0 +1,21 @@
+<launch>
+
+  <!-- the ROS parameter /use_sim_time 
+  triggers ROS time to use the simulation time in the 
+  /clock ROS topic published by gazebo rather than 
+  the system wall clock time -->
+  <param name="/use_sim_time" value="true" />
+
+  <!-- starts the Gazebo executable with a default world file (empty.world). -->
+  <node name="gazebo" pkg="gazebo" type="gazebo" args="-r $(find gazebo_worlds)/worlds/empty.world" respawn="false" output="screen"/>
+  
+  <!--send table urdf to spawn_model-->
+  <node name="spawn_table" pkg="gazebo" type="spawn_model" args="-urdf -file $(find wpi_drc_sim)/descriptions/table.urdf -x 1.0 -model table" respawn="false" output="screen" /> 
+
+  <!--send valve urdf to spawn_model--> 
+  <node name="spawn_driving_wheel" pkg="gazebo" type="spawn_model" args="-urdf -file $(find wpi_drc_sim)/descriptions/driving_wheel_full.urdf -x 1.41 -z 1.0 -Y 3.14159265359 -model wheel -wait table" respawn="false" output="screen" />
+  
+  <!-- start pr2 robot-->
+  <include file="$(find pr2_gazebo)/launch/pr2.launch"/>
+
+</launch>
