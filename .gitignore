@@ -11,9 +11,6 @@ qtcreator-build/
 openHubo/plugins
 openHubo/env.sh
 
-hubo_msgs/src/hubo_msgs/msg/
-hubo_sensor_msgs/src/hubo_sensor_msgs/msg/
-
 *~
 *.pyc
 .svn
