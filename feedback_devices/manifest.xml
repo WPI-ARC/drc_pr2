@@ -1,0 +1,23 @@
+<package>
+  <description brief="feedback_devices">
+
+     feedback_devices
+
+  </description>
+  <author>nick</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/feedback_devices</url>
+  
+  <depend package="roscpp"/>
+  <depend package="cereal_port"/>
+  <depend package="geometry_msgs"/>
+  <depend package="pr2_controllers_msgs"/>
+  <depend package="pr2_msgs"/>
+  <depend package="rosbag"/>
+  <depend package="pr2_gripper_sensor_msgs"/>
+
+
+</package>
+
+

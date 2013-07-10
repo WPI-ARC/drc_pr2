@@ -1,0 +1,9 @@
+<launch>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find pr2_description)/robots/pr2_no_kinect.urdf.xacro'" />
+  <param name="robot_description_semantic" textfile="$(find pr2_description)/robots/pr2.srdf" />
+
+	<node name="tacta_grippers" pkg="feedback_devices" type="tacta_grippers" output="screen" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find feedback_devices)/rviz/pr2_tacta_grippers.vcg" />
+
+</launch>

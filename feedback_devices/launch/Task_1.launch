@@ -1,0 +1,7 @@
+<launch>
+
+  
+
+  <node pkg="rosbag" type="rosbag" name="rosbag_play_task_1" args="play Trial_1.bag" />
+
+</launch>

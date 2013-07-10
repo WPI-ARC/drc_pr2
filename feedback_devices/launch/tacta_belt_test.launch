@@ -1,0 +1,6 @@
+<launch>
+  <!-- Start the gui that runs on the robot's base station -->
+	<node name="tacta_belt" pkg="feedback_devices" type="tacta_belt"/>
+	<node name="tacta_test" pkg="feedback_devices" type="tacta_test"/>
+
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="tacta_box" pkg="feedback_devices" type="tacta_box" output="screen" />
+    <node name="tacta_hydra" pkg="feedback_devices" type="tacta_hydra" output="screen" />
+	<node name="pr2_gripper_feedback_humanoids" pkg="feedback_devices" type="pr2_gripper_feedback_humanoids" output="screen" />
+
+	<!-- node name="rviz" pkg="rviz" type="rviz" args="-d $(find feedback_devices)/rviz/pr2_tacta_grippers.vcg" -->
+
+</launch>
